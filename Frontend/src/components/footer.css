@@ -1,0 +1,103 @@
+.footer {
+  background: #fbfbfb;
+  padding: 40px 0 15px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 22%;
+  min-width: 200px;
+}
+
+.footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color:#0053B8 ;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #424242;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  opacity: 1;
+  padding-left: 5px;
+}
+
+.brand .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0053B8;
+}
+
+.brand .tagline {
+  margin-top: 10px;
+  color: #5f5f5f;
+  font-size: 14px;
+}
+
+.social-links a {
+  font-size: 19px;
+  margin-right: 12px;
+  color: #0053B8;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.divider {
+  width: 90%;
+  border: none;
+  border-top: 1px solid white;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .footer-col {
+    width: 45%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    display: flex;
+  }
+}

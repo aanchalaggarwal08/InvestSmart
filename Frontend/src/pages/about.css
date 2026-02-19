@@ -1,0 +1,137 @@
+/* Page Background & Fonts */
+h1{
+    text-align: center;
+}
+.about-page {
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color:  #0053B8;
+}
+
+/* Fade Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1642790104749-b66c22265716?auto=format&fit=crop&w=1500&q=60') 
+  center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: zoomHero 6s ease-in-out infinite alternate;
+}
+
+@keyframes zoomHero {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+/* Sections */
+.section {
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.content {
+  font-size: 18px;
+  line-height: 1.7;
+}
+test-box img {
+    width: 300px;
+}
+/* Two Column Layout */
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img-mission {
+margin: auto;
+  width: 450px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.img-mission:hover {
+  transform: scale(1.05);
+}
+
+/* Features */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.15);
+}
+
+.feature-box img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+/* CTA */
+.cta {
+  background:  #0053B8;
+  padding: 60px 20px;
+  color: white;
+}
+
+.cta button {
+  background: #fff;
+  color:  #0053B8;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta button:hover {
+  background: #c8e6c9;
+}
