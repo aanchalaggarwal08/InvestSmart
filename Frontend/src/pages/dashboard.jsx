@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dashboard.css"
+import "./dashboard.css"
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MarketChart from "../components/MarketChart"; 

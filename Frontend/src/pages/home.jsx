@@ -1,5 +1,4 @@
-
-import "./Home.css";
+import "./home.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/footer";
 import MarketChart from "../components/MarketChart"; // optional dashboard teaser
