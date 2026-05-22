@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar.js";
+import Navbar from "./components/navbar";
 
 import Home from "./pages/home";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Dashboard from "./pages/Dashboard";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
+import Dashboard from "./pages/dashboard";
 import CompareStocks from "./pages/comparestocks";
-import About from "./pages/About";
-import Resources from "./pages/Resources";
-import Profile from "./pages/Profile";
+import About from "./pages/about";
+import Resources from "./pages/resources";
+import Profile from "./pages/profile";
 
-import { AuthProvider } from "./context/authContext"; // fixed path
+import { AuthProvider } from "./context/authContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {

@@ -56,7 +56,7 @@
 import { Link } from "react-router-dom";
 import { useContext, useState } from "react"; // ✅ useState imported
 import { AuthContext } from "../context/authContext";
-import "./Navbar.css";
+import "./navbar.css";
 
 export default function Navbar() {
   const { isLoggedIn, logout } = useContext(AuthContext);
