@@ -1,11 +1,11 @@
 import React from "react";
-import "./Footer.css";
+import "./footer.css";
 
-export default function footer() {
+export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        
+
         <div className="footer-col brand">
           <h2 className="logo">Invest Smart</h2>
           <p className="tagline">Compare better. Invest smarter.</p>
@@ -30,13 +30,14 @@ export default function footer() {
             <li><a href="/pricing">Pricing</a></li>
           </ul>
         </div>
-</div>
-    
+
+      </div>
 
       <hr className="divider" />
+
       <p className="copyright">
         © {new Date().getFullYear()} Invest Smart — All Rights Reserved.
       </p>
     </footer>
-  )
+  );
 }
