@@ -14,7 +14,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://invest-smart-69xi.onrender.com", {
+      const response = await fetch("https://invest-smart-69xi.onrender.com/auth/login", {
         method: "POST",
         headers: { 
           "Content-Type": "application/json" 
