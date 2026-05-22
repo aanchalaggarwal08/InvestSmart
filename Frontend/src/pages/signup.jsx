@@ -7,7 +7,7 @@ export default function Signup() {
   const navigate = useNavigate();
   
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("");fetch
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
@@ -21,7 +21,7 @@ export default function Signup() {
     }
 
     try {
-      const response = await fetch("https://invest-smart-69xi.onrender.com", {
+      const response = await fetch("https://invest-smart-69xi.onrender.com/auth/signup", {
         method: "POST",
         headers: { 
           "Content-Type": "application/json" 
